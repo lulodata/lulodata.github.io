@@ -3,7 +3,7 @@
 paginate: 10 # pagination based on number of posts
 paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
-highlighter: rouge
+highlighter: "FF7800"
 markdown: kramdown
 google_analytics: UA-89537756-2
 title: Lulo Data
@@ -13,7 +13,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: dbyll
+      title: Blog
 
 description: Stylish Jekyll Theme
 author:
@@ -30,9 +30,10 @@ categories_path: categories.html
 tags_path: tags.html
 
 # set it as url of an image
-sidebar_background_image: https://www.dropbox.com/s/g9h23zrycedxtk5/sky.png?raw=1
+sidebar_background_image: https://c.pxhere.com/photos/c0/bf/leaf_water_green_drop_background_natural_nature_fresh-560928.jpg!d
 
 BASE_PATH:
 
 plugins:
   - jekyll-paginate
+  - jekyll-seo-tag
